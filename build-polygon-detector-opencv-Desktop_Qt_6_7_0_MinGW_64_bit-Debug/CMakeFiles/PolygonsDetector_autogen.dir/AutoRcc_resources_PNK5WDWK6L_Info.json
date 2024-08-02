@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/PolygonsDetector_autogen",
+	"CMAKE_BINARY_DIR" : "D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/CUCEI/3RO_INFO/POO/PolygonsDetector",
+	"CMAKE_SOURCE_DIR" : "D:/CUCEI/3RO_INFO/POO/PolygonsDetector",
+	"INCLUDE_DIR" : "D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/PolygonsDetector_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/CUCEI/3RO_INFO/POO/PolygonsDetector/res/logo.png",
+		"D:/CUCEI/3RO_INFO/POO/PolygonsDetector/res/test.jpg",
+		"D:/CUCEI/3RO_INFO/POO/PolygonsDetector/res/2.png",
+		"D:/CUCEI/3RO_INFO/POO/PolygonsDetector/res/3.png",
+		"D:/CUCEI/3RO_INFO/POO/PolygonsDetector/res/4.png",
+		"D:/CUCEI/3RO_INFO/POO/PolygonsDetector/res/1.png",
+		"D:/CUCEI/3RO_INFO/POO/PolygonsDetector/res/info.svg",
+		"D:/CUCEI/3RO_INFO/POO/PolygonsDetector/res/perimeter.svg",
+		"D:/CUCEI/3RO_INFO/POO/PolygonsDetector/res/start.svg",
+		"D:/CUCEI/3RO_INFO/POO/PolygonsDetector/res/area.svg"
+	],
+	"LOCK_FILE" : "D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/PolygonsDetector_autogen.dir/AutoRcc_resources_PNK5WDWK6L_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "PNK5WDWK6L",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.7.0/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/PolygonsDetector_autogen.dir/AutoRcc_resources_PNK5WDWK6L_Used.txt",
+	"SOURCE" : "D:/CUCEI/3RO_INFO/POO/PolygonsDetector/res/resources.qrc",
+	"VERBOSITY" : 0
+}

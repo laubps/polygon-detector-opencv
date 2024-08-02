@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>566</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="mainWidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1000</width>
+     <height>500</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>2000</width>
+     <height>1500</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget {
+background-color: rgb(255, 255, 255)
+}</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,3">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="sidebar" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QWidget {
+	border-right: 1px solid rgb(235, 235, 235);
+	background-color: none:
+}</string>
+        </property>
+        <layout class="QVBoxLayout" name="sidebarVLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <layout class="QVBoxLayout" name="sidebarVLayout" stretch="1">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item alignment="Qt::AlignLeft|Qt::AlignTop">
+            <widget class="QLabel" name="logoLabel">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>250</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLabel {
+	padding: 20px;
+	padding-right: 40px;
+	text-align: left;
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap resource="../../res/resources.qrc">:/logo/logo.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+             </property>
+             <property name="margin">
+              <number>0</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="dashboardWidget" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>500</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QWidget {
+rgb(249, 249, 249)
+}</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout" stretch="1,4">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="sizeConstraint">
+            <enum>QLayout::SetDefaultConstraint</enum>
+           </property>
+           <item>
+            <widget class="QWidget" name="header" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QWidget {; 
+    background-color: rgb(255, 255, 255);
+	border-bottom: 1px solid rgb(190, 190, 190);
+	padding: 20px;
+	padding-bottom:10px;
+}</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_4">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <layout class="QVBoxLayout" name="headerVLayout" stretch="3,0">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="headerTitle">
+                  <property name="styleSheet">
+                   <string notr="true">QLabel {
+	padding: 30px 30px 10px 30px; 
+	font: 700 20pt &quot;Segoe UI Variable Small&quot;;
+	color: rgb(0,0,0);
+border-color: rgb(255,255,255);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Dashboard</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="descriptionVLayout">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>30</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>30</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>15</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="headerDescription">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QLabel {
+	padding: 5px 10px;
+	font: 500 9pt &quot;Segoe UI Variable Small&quot;;
+background-color: rgb(255, 219, 239);
+color: rgb(0,0,0);
+border-radius: 10px;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>Bienvenido. Con este programa puedes analizar imagenes y los polígonos dentro de ella.</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QStackedWidget" name="dashStackedWidget">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QWidget {
+	background-color:  rgb(235, 235, 235);
+}</string>
+             </property>
+             <property name="currentIndex">
+              <number>0</number>
+             </property>
+             <widget class="QWidget" name="dashMenuWidget">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_5">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <layout class="QHBoxLayout" name="dashMenuHLayout">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>30</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>30</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>30</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>30</number>
+                 </property>
+                 <item>
+                  <layout class="QGridLayout" name="dashMenuGridLayout">
+                   <property name="spacing">
+                    <number>30</number>
+                   </property>
+                   <item row="0" column="3">
+                    <widget class="QPushButton" name="detailsBtn">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+    border-image: url(':/functions/2.png') stretch;
+	border-radius: 20;
+}
+</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="3">
+                    <widget class="QPushButton" name="areasBtn">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+    border-image: url(':/functions/4.png') stretch;
+	border-radius: 20;
+}
+</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="2">
+                    <widget class="QPushButton" name="perimetersBtn">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+    border-image: url(':/functions/3.png') stretch;
+	border-radius: 20;
+}
+</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="2">
+                    <widget class="QPushButton" name="contoursBtn">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+    border-image: url(':/functions/1') stretch;
+	border-radius: 20;
+}
+</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../res/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

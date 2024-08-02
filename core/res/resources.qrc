@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/functions">
+        <file>1.png</file>
+        <file>2.png</file>
+        <file>3.png</file>
+        <file>4.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>start.svg</file>
+        <file>info.svg</file>
+        <file>perimeter.svg</file>
+        <file>area.svg</file>
+    </qresource>
+    <qresource prefix="/logo">
+        <file>logo.png</file>
+    </qresource>
+    <qresource prefix="/test">
+        <file>test.jpg</file>
+    </qresource>
+</RCC>

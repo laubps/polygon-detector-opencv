@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DashFunctionWidget</class>
+ <widget class="QWidget" name="DashFunctionWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>507</width>
+    <height>407</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background-color: none;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>30</number>
+   </property>
+   <property name="topMargin">
+    <number>30</number>
+   </property>
+   <property name="rightMargin">
+    <number>30</number>
+   </property>
+   <property name="bottomMargin">
+    <number>30</number>
+   </property>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QStackedWidget" name="stackedWidget">
+       <widget class="QWidget" name="selectImageWidget">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <layout class="QVBoxLayout" name="selectImageWidgetLayout" stretch="0">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="sizeConstraint">
+            <enum>QLayout::SetDefaultConstraint</enum>
+           </property>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="container">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item>
+               <layout class="QVBoxLayout" name="containerVerticalLayout">
+                <property name="spacing">
+                 <number>15</number>
+                </property>
+                <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                 <widget class="QLabel" name="label">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLabel {
+ color: rgb(0,0,0);
+	
+	font: 700 14pt &quot;Segoe UI Variable Small&quot;;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Selecciona una imagen</string>
+                  </property>
+                 </widget>
+                </item>
+                <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                 <widget class="QPushButton" name="selectImageButton">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+	color: rgb(255,255,255);
+	font: 700 12pt &quot;Segoe UI Variable Small&quot;;
+	padding: 10px;
+	border-radius: 15px;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Abrir el explorador de archivos</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

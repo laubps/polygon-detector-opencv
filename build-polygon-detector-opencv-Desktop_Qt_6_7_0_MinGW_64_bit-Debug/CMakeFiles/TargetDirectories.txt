@@ -1,0 +1,9 @@
+D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/PolygonsDetector.dir
+D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/PolygonsDetector_autogen_timestamp_deps.dir
+D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/PolygonsDetector_autogen.dir

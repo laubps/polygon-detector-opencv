@@ -1,0 +1,18 @@
+{
+    "palettes": {
+        "primary": {
+            "pink": "#cc3c8a",
+            "blue": "#3f99be",
+            "purple": "#924d9d",
+            "orange": "#dd7d44",
+            "white": "#ffffff",
+            "black": "#000000"
+        },
+        "secondary": {
+            "pink": "#ffdbef",
+            "blue": "#caecfa",
+            "purple": "#f1d4f6",
+            "orange": "#ffc39d"
+        }
+    }
+}

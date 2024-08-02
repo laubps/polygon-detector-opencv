@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-58fca0b9d7e8828fad85.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PolygonsDetector",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PolygonsDetector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PolygonsDetector-Debug-4260eae41ddd205c403b.json",
+					"name" : "PolygonsDetector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PolygonsDetector_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PolygonsDetector_autogen-Debug-11322fb28623123ba5f8.json",
+					"name" : "PolygonsDetector_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PolygonsDetector_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PolygonsDetector_autogen_timestamp_deps-Debug-86aadd0caaa0a5b95f74.json",
+					"name" : "PolygonsDetector_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/CUCEI/3RO_INFO/POO/build-FiguresDetection-Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+		"source" : "D:/CUCEI/3RO_INFO/POO/PolygonsDetector"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
